@@ -2,7 +2,7 @@
 
 ## Project Info
 
-**URL**: https://example.com/projects/random-link
+**URL**: https://samyam-ngo-website.vercel.app/
 
 ## How Can I Edit This Code?
 
