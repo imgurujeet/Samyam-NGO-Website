@@ -2,8 +2,7 @@
 
 ## Project Info
 
-**URL**: [samyam-ngo-website.vercel.app](https://samyam-ngo-website.vercel.app/)
-
+**URL**: [Samyam-national-organization](https://samyam-ngo-website.vercel.app/)
 
 ## How Can I Edit This Code?
 
