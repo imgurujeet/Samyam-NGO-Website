@@ -2,7 +2,7 @@
 
 ## Project Info
 
-**URL**: <a href="https://samyam-ngo-website.vercel.app/" target="_blank" rel="noopener noreferrer">samyam-ngo-website.vercel.app</a>
+**URL**: [samyam-ngo-website.vercel.app](https://samyam-ngo-website.vercel.app/)
 
 
 ## How Can I Edit This Code?
