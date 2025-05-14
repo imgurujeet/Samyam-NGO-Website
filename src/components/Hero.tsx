@@ -17,7 +17,7 @@ const Hero = () => {
         }`}
       >
         <img
-          src="\src\images\banner.jpg"
+          src="\images\banner.jpg"
           alt="Samyam National Level Org"
           className="w-full h-full object-cover"
         />
