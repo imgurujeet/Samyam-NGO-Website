@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
 
@@ -29,24 +28,33 @@ const Header = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
+        {/* Logo */}
         <div className="flex items-center">
-          <h1 className="text-xl font-medium tracking-tight">
+          <h1 className={cn(
+            "text-xl font-medium tracking-tight transition-colors duration-300",
+            scrolled ? "text-gray-900" : "text-white"
+          )}>
             <span className="font-bold">Samyam</span> National Level Organisation
           </h1>
         </div>
-        
+
+        {/* Navigation */}
         <nav className="hidden md:flex items-center gap-8">
           {['mission', 'about', 'donate'].map((item) => (
             <button
               key={item}
               onClick={() => scrollToSection(item)}
-              className="text-sm font-medium capitalize text-gray-600 hover:text-primary transition-colors focus-ring"
+              className={cn(
+                "text-sm font-medium capitalize transition-colors duration-300 focus-ring",
+                scrolled ? "text-gray-700 hover:text-primary" : "text-white hover:text-blue-200"
+              )}
             >
               {item}
             </button>
           ))}
         </nav>
-        
+
+        {/* Donate Button - consistent in both cases */}
         <button
           onClick={() => scrollToSection('donate')}
           className="bg-primary text-white px-4 py-2 rounded-full text-sm font-medium transition-all hover:bg-primary/90 active:scale-[0.98]"

@@ -1,4 +1,3 @@
-
 import AnimatedText from './AnimatedText';
 
 const Mission = () => {
